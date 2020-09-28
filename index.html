@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cvećara Dalija</title>
+</head>
+
+<body>
+  <!-- Zaglavlje -->
+  <!-- U okviru kontejnera smešten je naziv web aplikacije i meni koji je prilagođen i kada se prozor smanji
+  ili pri pregledanju na mobilnom telefonu. Klikom na bilo koju stavku menija, stranica nas vodi na traženu sekciju. -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#početna"><h1><span>DALIJA</span></h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="#početna" data-after="Početna">Početna</a></li>
+              <li><a href="#onama" data-after="Onama">O nama</a></li>
+              <li><a href="#asortiman" data-after="Asortiman">Asortiman</a></li>
+              <li><a href="#kontakt" data-after="Kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prvi deo  -->
+  <!-- Odeljak je vezan za početnu stranu i na njoj je kao pozadina postavljena slika i slogan preduzeća, kao i dugme
+  koje bi moglo da se iskoristi za pozivanje i naručivanje proizvoda. Svi elementi su formatirani i stilizovani u style.css
+  folderu -->
+  <section id="početna">
+    <div class="početna container">
+      <div>
+        <center><h1>DA VAM KUĆA BUDE KAO CVETNA BAŠTA<span></span></h1>
+        <h1> POMOĆI ĆE VAM NAŠA MAŠTA!<span></span></h1></center>
+        <a href="#početna" type="button" class="dugme">POZOVI I NARUČI!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drugi deo -->
+  <!-- Ovaj deo sadrži tekst i posebne odeljke koji su iskorišćeni za nabrajanje partnera. Ponovo je iskorišćena
+  slika za pozadinu odeljaka, kao i slike i tekt u okviru svakog odeljka. -->
+  <section id="onama">
+    <div class="onama container">
+      <div class="onama-vrh">
+        <h1 class="onama-naslov">O nama</h1>
+        <p>Dalija je cvećara koja se bavi isporukom cveća i poklona u Novom Sadu i okolini. Dostavu obavljaju naši radnici tamo gde imamo prodajna mesta, a tamo gde nemamo, dostava se vrši preko lokalnih cvećara sa kojima imamo potpisane ugovore o saradnji. Bitno nam je da naglasimo da aranžmane ne dostavljamo poštom, tj. uvek stižu sveži i sveže aranžirani. Cilj postojanja i zahtev koji smo sami sebi postavili je da uslugu dostave cveća u Novom Sadu podignemo na svetski nivo i da svaki klijent koji koristi naše usluge bude zadovoljan koliko god je to moguće. Naše proizvode možete naći i u:</p>
+      </div>
+      
+      <div class="onama-dno">
+
+        <div class="odeljak">
+          <div class="slika1"><img src="slike/slika1.jpg"></div>
+          <h2><i>Cvećara UNA</i></h2>
+          <p>Proširili smo našu delatnost, okupili profesionalce sa višegodišnjim iskustvom i pokrenuli Agenciju za organizaciju venčanja „UNA“.</p>
+        </div>
+
+        <div class="odeljak">
+          <div class="slika3"><img src="slike/slika3.jpg"></div>
+          <h2><i>Cvećara KAZABLANKA</i></h2>
+          <p>Svojim iskustvom i ljubaznošću, osoblje cvećare Kazablanka će Vam pomoći da obradujete svoje najmilije, ulepšate svakodnevni životni i radni prostor.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Treći deo -->
+  <!-- U okviru stavke "Asortiman" postavljene su fotografije upotrebom grid layout-a. Njihov raspored je definisan
+  u folderu style.css -->
+  <section id="asortiman">
+    <div class="asortiman container">
+      <div class="asortiman-header">
+        <h1 class="section-title">Asortiman</h1>
+      </div>
+      <div class="wrapper">
+          <div class="box1"><img src="./slike/box1.jpg"></div>
+          <div class="box2"><img src="./slike/box2.jpg"></div>
+          <div class="box3"><img src="./slike/box3.jpg"></div>
+          <div class="box4"><img src="./slike/box4.jpg"></div>
+          <div class="box5"><img src="./slike/box5.jpg"></div>
+        </div>
+  </section>
+
+  <!-- Četvrti deo -->
+  <section id="kontakt">
+    <div class="kontakt container">
+      <div><h1 class="section-title">Kontakt</h1></div>
+      <div class="kontakt-items">
+        <div class="kontakt-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="kontakt-info">
+            <h1>Telefon</h1>
+            <h2>+381 123 1234</h2>
+            <h2>+381 123 1234</h2>
+          </div>
+        </div>
+        <div class="kontakt-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="kontakt-info">
+            <h1>Email</h1>
+            <h2>info@gmail.com</h2>
+          </div>
+        </div>
+        <div class="kontakt-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="kontakt-info">
+            <h1>Adresa</h1>
+            <h2>Novi Sad, Srbija</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Peti deo -->
+  <!-- U ovom delu smeštena je forma koja služi za naručivanje proizvoda.-->
+  <section id="naručivanje">
+    <div class="naručivanje container">
+      <h1 class="naručivanje-title">Naručite cveće</h1>
+      <div class="naručivanje-form">
+          <div class="input-fields">
+            <input id="inp1" type="text" class="input" placeholder="Ime"><br>
+            <input id="inp2" type="text" class="input" placeholder="Adresa"><br>
+            <input id="inp3" type="text" class="input" placeholder="Kontakt telefon"><br>
+            <input id="inp4" type="text" class="input" placeholder="Proizvod"><br>
+            <br>
+            <button id="btn" type="button" class="dugme">Naruči</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+      </div>
+      <p>2020. All rights reserved</p>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+
+</body>
+</html>
